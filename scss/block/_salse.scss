@@ -1,0 +1,51 @@
+.sales__list {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.sale-cards {
+
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 260px;
+    background: #000;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.sales__text {
+    text-transform: uppercase;
+    left: 50%;
+    flex-direction: column;
+}
+
+.sales__text-color {
+    display: block;
+    color: $dark-pink;
+}
+
+.sale--woman {
+    background-image: url(./img/woman-grey.jpg);
+}
+
+.sale--man {
+    background-image: url(./img/man-grey.jpg);
+}
+
+.sale--child {
+    background-image: url(./img/child-grey.jpg);
+}
+
+.sale--gb {
+    margin-top: 40px;
+    width: 100%;
+    background-image: url(./img/fon-grey.jpg);
+    background-size: cover;
+}

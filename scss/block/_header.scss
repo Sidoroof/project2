@@ -1,0 +1,48 @@
+.header {
+    background-color: $black-bkg;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header-wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+    padding-right: 230px;
+    padding-left: 230px;
+}
+
+.header__list {
+    display: flex;
+
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+
+.header__link {
+    margin: 0 0 0 34px;
+}
+
+.header__nav {
+    position: absolute;
+    Width: 232px;
+    top: 90px;
+    text-align: left;
+    right: 0;
+    background-color: white;
+    display: none;
+}
+
+.header__button:hover .header__nav {
+    display: block;
+}
+
+.header__nav:hover {
+    display: block;
+}

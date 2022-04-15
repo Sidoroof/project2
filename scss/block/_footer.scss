@@ -1,0 +1,42 @@
+.information-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./img/fon.jpg);
+    background-size: cover;
+}
+
+.information-block-img {
+    margin: 87px 0 0 327px;
+    margin-top: 87px;
+    margin-left: 327px;
+}
+
+
+
+.footer-block {
+    height: 50px;
+    background-color: var(--black-bkg);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--text-color);
+}
+
+.footer-link {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 8px;
+}
