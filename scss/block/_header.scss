@@ -46,3 +46,9 @@
 .header__nav:hover {
     display: block;
 }
+
+@media(min-width:$tablet-width) {
+    .header {
+        background-color: $dark-pink;
+    }
+}

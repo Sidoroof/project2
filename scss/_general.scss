@@ -22,3 +22,9 @@ body {
     width: 1140;
     margin: 0 auto;
 }
+
+@media(min-width:$desktop-width) {
+    .conteiner {
+        width: 734px;
+    }
+}
