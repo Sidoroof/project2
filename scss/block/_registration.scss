@@ -1,7 +1,7 @@
 .section-registration {
 
     padding: 59px 0 60px 230px;
-    background-color: var(--light-pink);
+    background-color: $light-pink;
 }
 
 .section-registration-item {
@@ -9,7 +9,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    color: var(--dark-pink);
+    color: $dark-pink;
 }
 
 .additional-info-text {
@@ -19,7 +19,7 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    color: var(--black-bkg);
+    color: $black-bkg;
     margin: 0 0 126px 230px;
 }
 
@@ -28,7 +28,7 @@
     font-size: 24px;
     line-height: 167.2%;
     text-align: center;
-    color: var(--black-bkg);
+    color: $black-bkg;
 }
 
 .subscription-item {
@@ -36,7 +36,7 @@
     font-size: 18px;
     line-height: 167.2%;
     text-align: center;
-    color: var(--black-bkg);
+    color: $black-bkg;
 }
 
 .subscription-button {
@@ -45,7 +45,7 @@
     top: 54.24%;
     bottom: 34.82%;
     background: #E1E1E1;
-    background-color: var(--dark-pink);
+    background-color: $dark-pink;
 }
 
 .data-input {
@@ -105,7 +105,7 @@
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-    background-color: var(--dark-pink);
+    background-color: $dark-pink;
 }
 
 .data-input-registration-arrow {

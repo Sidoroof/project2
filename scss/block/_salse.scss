@@ -32,20 +32,62 @@
 }
 
 .sale--woman {
-    background-image: url(./img/woman-grey.jpg);
+    background-image: url(../img/woman-grey.jpg);
 }
 
 .sale--man {
-    background-image: url(./img/man-grey.jpg);
+    background-image: url(../img/man-grey.jpg);
 }
 
 .sale--child {
-    background-image: url(./img/child-grey.jpg);
+    background-image: url(../img/child-grey.jpg);
 }
 
 .sale--gb {
     margin-top: 40px;
     width: 100%;
-    background-image: url(./img/fon-grey.jpg);
+    background-image: url(../img/fon-grey.jpg);
     background-size: cover;
+}
+
+@media(max-width:767px) {
+
+    .sale--woman,
+    .sale--child,
+    .sale--man {
+        margin: 19PX;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+
+    .sale--gb {
+        margin-top: 10PX;
+        margin-left: 19px;
+        margin-right: 19PXs;
+    }
+}
+
+@media(max-width:375px) {
+    .sale {
+
+        display: inline;
+    }
+
+    .sale-cards {
+
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .sales__list {
+
+        display: inline;
+    }
+
+    .sale--gb {
+
+        margin-bottom: 64px;
+    }
+
 }
