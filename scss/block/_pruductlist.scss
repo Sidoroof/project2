@@ -1,0 +1,147 @@
+.product_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 65px;
+}
+
+.description_product {
+    align-items: center;
+}
+
+.description_product_list {
+
+    text-align: center;
+}
+
+.description_product_mdgp {
+    width: 555px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.product {
+    display: flex;
+    margin: 0 0 11px 0;
+}
+
+.product__title-wrp {
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+    background: $light-pink;
+}
+
+.product__title {
+
+    text-transform: uppercase;
+    color: $black-bkg;
+}
+
+.product__subtitle {
+    display: block;
+}
+
+.product__subtitle-pink {
+    color: $dark-pink;
+}
+
+.product__title-sise {
+    width: 1600px;
+    height: 148px;
+}
+
+.text_color_pink {
+    color: $dark-pink;
+}
+
+.description_product_mdgh {
+    margin-top: 27px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #4D4D4D;
+}
+
+.description_product_mdgp {
+    margin-top: 48px;
+}
+
+.text_mrg {
+    margin-top: 32px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.text_font {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.product_check_mark {
+    display: inline;
+}
+
+.product_check_mark_mrgr {
+    margin-right: 23px;
+}
+
+.product_check_mark_mrgl {
+    margin-left: 450px;
+}
+
+.section_product_check_mark {
+    align-items: center;
+    margin-top: 130px;
+}
+
+.productlist-btn {
+    left: 14.38%;
+    right: 14.31%;
+    top: 32.24%;
+    bottom: 47.03%;
+    border: 1px solid #FF6A6A;
+    background: #FFFFFF;
+    margin-top: 48px;
+}
+
+.section_productlist-btn {
+    display: flex;
+    justify-content: center
+}
+
+.produkt_inf-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./img/fon.jpg);
+    background-size: cover;
+}
+
+.produkt_inf-block-img {
+    margin: 87px 0 0 327px;
+    margin-top: 87px;
+    margin-left: 327px;
+}
+
+.produkt_inf_text {
+
+    width: 343px;
+    height: 73px;
+    margin: 0 0 0 0;
+    max-width: 360px;
+    margin: auto;
+}
