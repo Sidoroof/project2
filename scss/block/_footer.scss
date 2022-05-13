@@ -3,7 +3,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(./img/fon.jpg);
+    background-image: url(../img/fon.jpg);
     background-size: cover;
 }
 
@@ -17,7 +17,7 @@
 
 .footer-block {
     height: 50px;
-    background-color: var(--black-bkg);
+    background-color: $black-bkg;
     display: flex;
     justify-content: space-between;
 }
@@ -32,7 +32,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: var(--text-color);
+    color: $text-color;
 }
 
 .footer-link {
