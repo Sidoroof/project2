@@ -49,6 +49,7 @@
 
 .product__subtitle {
     display: block;
+    justify-content: center;
 }
 
 .product__subtitle-pink {
@@ -56,7 +57,7 @@
 }
 
 .product__title-sise {
-    width: 1600px;
+    width: auto;
     height: 148px;
 }
 
@@ -99,7 +100,7 @@
 }
 
 .product_check_mark_mrgl {
-    margin-left: 450px;
+    margin-left: 25%;
 }
 
 .section_product_check_mark {
@@ -127,7 +128,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(./img/fon.jpg);
+    background-image: url(../img/fon.jpg);
     background-size: cover;
 }
 
@@ -144,4 +145,92 @@
     margin: 0 0 0 0;
     max-width: 360px;
     margin: auto;
+}
+
+@media(max-width:767px) {
+    .produkt_inf-block {
+        display: inline;
+        margin: 53px 0 0 327px;
+    }
+
+    .produkt_inf_text {
+        margin: 48px 0 0 220px;
+    }
+
+    .product-block {
+        height: 45%;
+        margin: 0 0 20px 0;
+    }
+
+    .product__title {
+        width: 283px;
+        height: 78px;
+        font-size: 24;
+    }
+
+    .product_img {
+        width: 90%;
+    }
+
+    .description_product_mdgp {
+        width: 80%;
+    }
+
+    .product_check_mark_mrgl {
+        margin-left: 20%;
+    }
+
+    .product_check_mark_mrgr {
+        margin-right: 2%;
+    }
+
+    .product-block-cards-img {
+        height: 45%;
+    }
+
+    .product_check_mark {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
+
+@media(max-width:375px) {
+    .produkt_inf-block-img {
+
+        margin-left: 115px;
+    }
+
+    .produkt_inf_text {
+        width: 343px;
+        height: 73px;
+        margin: 0 0 0 0;
+    }
+
+    .product_img {
+        width: 90%;
+    }
+
+    .product_check_mark_mrgl {
+        margin-left: 10%;
+    }
+
+    .product_check_mark_mrgr {
+        margin-right: 2%;
+    }
+
+    .product_check_mark {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .section_product_check_mark {
+        margin-top: 81px;
+    }
+
+    .description_product_mdgp {
+        margin-top: 32px;
+    }
 }
